@@ -1,8 +1,3 @@
-Here is a sample `README.md` file for your Flask-based maze game project hosted on a Google Cloud Platform (GCP) virtual machine. The README includes headings, descriptions, installation instructions, usage, and other key information.
-
-### Sample `README.md`
-
-```markdown
 # Flask Maze Game
 
 This project is a **Flask-based Maze Game** where users can navigate through randomly generated mazes. The game starts with smaller mazes and progressively increases in size after each level. The player's name and high scores are saved in a database. This app is designed to be hosted on a virtual machine, such as on **Google Cloud Platform (GCP)**.
