@@ -109,27 +109,5 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
----
-
-### Explanation of Sections:
-
-1. **Project Title and Description**: Brief introduction to the project.
-2. **Features**: Highlights key features of the game (random maze generation, cheat modes, etc.).
-3. **Table of Contents**: Easy navigation for the README.
-4. **Installation**: Step-by-step instructions for setting up the project, including virtual environment and dependency installation.
-5. **Usage**: How to start the server and play the game, including how to keep Flask running after SSH disconnection using `nohup`.
-6. **Cheat Codes**: Information on cheat modes.
-7. **Running on GCP**: Instructions specific to running the project on Google Cloud Platform (GCP), including firewall settings.
-8. **Contributing**: Guidelines on how to contribute to the project.
-9. **License**: The type of license (MIT in this case).
-
 ### Optional Additions:
-- **Screenshots**: You can include screenshots of the maze game by uploading images to your repository and adding them to the README.
-- **Demo Link**: If you deploy this on a live server, you can provide a demo link.
-
-Let me know if you'd like any further customization!
+- **Demo Link**: [Click Here!](http://34.93.246.220:5000/)
