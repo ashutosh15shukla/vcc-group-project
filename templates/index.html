@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="container">
+        <div id="instructions" style="font-size: 24px;">
+            <h2>Instructions</h2>
+            <p>Navigate the maze using arrow keys.</p>
+            <p>Reach the green block to complete a level.</p>
+        </div>
+
+        <div id="gameContainer" style="display:none;">
+            <h1>Maze Game</h1>
+            <div id="statusDisplay">
+                <h2>Level: <span id="currentLevel">1</span> | Time: <span id="timer">0</span> seconds | <span id="cheatDisplay"></span> | <span id="speedDisplay"></span></h2>
+            </div>
+            <canvas id="mazeCanvas" width="600" height="600"></canvas>
+        </div>
+
+        <div id="controls" style="font-size: 24px;">
+            <h2>Controls</h2>
+            <ul>
+                <li>Arrow Up: Move Up</li>
+                <li>Arrow Down: Move Down</li>
+                <li>Arrow Left: Move Left</li>
+                <li>Arrow Right: Move Right</li>
+                <li>Press 'Q' to Quit</li>
+            </ul>
+        </div>
+
+        <div id="nameInput">
+            <form id="nameForm">
+                <label for="playerName">Enter your name:</label><br>
+                <input type="text" id="playerName" placeholder="Your Name">
+                <br><br>
+                <button type="submit">Start Game</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='game.js') }}"></script>
+</body>
+</html>
