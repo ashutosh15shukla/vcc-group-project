@@ -92,7 +92,7 @@ You can activate the following cheat codes by typing the sequences in the browse
 
 1. **Create a VM Instance** on GCP.
 2. **SSH into the VM** and install the necessary software (Python, Flask, etc.).
-3. Follow the [installation steps](#installation) above to deploy the Flask app.
+3. Follow the installation steps above to deploy the Flask app.
 4. Update GCP firewall rules to allow traffic on port `5000`.
 
 ### GCP Firewall Rule
