@@ -26,7 +26,7 @@ This project is a **Flask-based Maze Game** where users can navigate through ran
 ## Installation
 
 ### Prerequisites
-- **Python 3.x**
+- **Python 3.9**
 - **pip** (Python package manager)
 - **Google Cloud Platform (GCP) VM** (or any Linux server)
 - **Flask** and other Python dependencies (see `requirements.txt`)
